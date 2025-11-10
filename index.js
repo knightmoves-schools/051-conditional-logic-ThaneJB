@@ -4,3 +4,4 @@ function validateAge(oldEnough){
   }
 }
 
+let oldEnough = true;
