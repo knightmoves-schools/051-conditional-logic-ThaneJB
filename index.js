@@ -1,4 +1,4 @@
-var oldEnough = true;
+var oldEnough = false;
 
 
 function validateAge(oe = oldEnough) {
