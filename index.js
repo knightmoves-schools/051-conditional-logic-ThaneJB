@@ -1,9 +1,11 @@
-function validateAge(oldEnough){
-  if (oldEnough) {
-    document.getElementById("result").innerHTML = old enough;
+var oldEnough = true;
+
+
+function validateAge() {
+ if (oldEnough) {
+    document.getElementById("result").innerHTML = "old enough";
   }
 }
 
-let oldEnough = true;
-
+validateAge();
 
