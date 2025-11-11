@@ -1,11 +1,10 @@
-var oldEnough = false;
+var oldEnough = true; 
 
 
-function validateAge(oe = oldEnough) {
- if (oe) {
-    document.getElementById("result").innerHTML = "old enough";
+function validateAge(oldEnough) {
+ if (oldEnough) {
+   return "old enough";
   }
 }
 
-validateAge();
 
